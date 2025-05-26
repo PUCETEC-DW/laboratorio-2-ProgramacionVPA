@@ -28,5 +28,14 @@ function mostrarPaises(lista) {
     });
 }
 
+// Evento para filtrar países según lo que escribe el usuario
+document.getElementById('buscar').addEventListener('input', function() {
+    const texto = this.value.toLowerCase();
+    const filtrados = paises.filter((pais) =>
+        pais.name.official.toLowerCase().includes(texto)
+    );
+    mostrarPaises(filtrados); // Mostrar solo los países filtrados
+});
+
 // Llamar a la función para cargar los países al iniciar
 cargarPaises();
