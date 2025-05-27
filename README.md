@@ -4,7 +4,7 @@
 # Buscador de Países 🌎
 ## 🎯 Objetivo
 
-Este proyecto es una aplicación web que permite buscar países y ver información relevante como su bandera, nombre oficial, región y población. Los datos se obtienen en tiempo real desde la API pública [REST Countries](https://restcountries.com/).
+Este proyecto es una aplicación web que permite buscar países y ver información relevante como su bandera, nombre oficial, región y población. Los datos se obtienen en tiempo real desde la API pública [REST Countries](https://restcountries.com/v3.1/all).
 
 ## ¿Cómo funciona?
 
@@ -28,7 +28,7 @@ De esta manera, siempre se visualiza la información más actualizada de los pa�
 - HTML5
 - CSS3
 - JavaScript 
-- [REST Countries API](https://restcountries.com/)
+- [REST Countries API](https://restcountries.com/v3.1/all)
 
 ## Enlace a la demo
 
